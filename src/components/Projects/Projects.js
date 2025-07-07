@@ -14,6 +14,9 @@ import EvOlf from "../../Assets/Projects/Evolf2.png";
 import moa from "../../Assets/Projects/moa2.png";
 import cov19 from "../../Assets/Projects/con192.png";
 import camage from "../../Assets/Projects/camage2.png";
+import dpg from "../../Assets/Projects/dpg2.png";
+import adt from "../../Assets/Projects/adt2.png";
+import ect from "../../Assets/Projects/ect2.png";
 
 function Projects() {
   return (
@@ -90,7 +93,7 @@ function Projects() {
               title="2019-nCoV-infection"
               description="2019-nCoV infection-mediated compromise in abundance or cellular function of SUSs (supporting cells), olfactory stem cells (OSCs) and Bowman’s gland cells of the olfactory epithelium are the most probable causes of anosmia."
               demoLink="https://academic.oup.com/bib/article/22/2/873/5893433"
-              journal="Brief. Bioinformatics (IF 9.5)" 
+              journal="Brief. Bioinformatics (IF 13.99)" 
             />
           </Col>
           <Col md={4} className="project-card">
@@ -109,7 +112,8 @@ function Projects() {
               imgPath={camage}
               isBlog={false}
               title="scCamAge"
-              description="an advanced context-aware multimodal prediction engine that co-leverages image-based cellular spatiotemporal features at single-cell resolution alongside cellular morphometrics and aging-associated bioactivities such as genomic instability, mitochondrial dysfunction, vacuolar dynamics, reactive oxygen species levels, and epigenetic and proteasomal dysfunctions."
+              description="An advanced context-aware multimodal prediction engine that co-leverages image-based cellular spatiotemporal features at single-cell resolution alongside cellular morphometrics and aging-associated bioactivities such as genomic instability, mitochondrial dysfunction, vacuolar dynamics, reactive oxygen species levels, and epigenetic and proteasomal dysfunctions."
+              ghLink="https://github.com/the-ahuja-lab/scCamAge"
               demoLink="https://www.sciencedirect.com/science/article/pii/S2211124725000415?via%3Dihub"
               journal="Cell Reports (IF 9.9)" 
             />
@@ -121,7 +125,41 @@ function Projects() {
               title="EvOlf"
               description="An evolutionary-guided deep-learning framework that integrates odorant receptors (ORs) and non-odorant GPCRs (nonORs), along with their experimentally validated agonists and non-agonists, spanning an expanded receptor sequence and ligand chemical space."
               ghLink="https://github.com/SanjayISHIGAMI/EvOlf"
-              // demoLink=""      <--------Please include a demo link here 
+              demoLink="https://academic.oup.com/chemse/article/doi/10.1093/chemse/bjad041/7379312?searchresult=1" 
+              journal="Chemical Senses (IF 3.16)"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={adt}
+              isBlog={false}
+              title="Mysteries of DNA Adducts"
+              description="This review accentuates AI's potential in various adduct biology aspects, including novel adduct identification, parent genotoxin associations, formation mechanisms, site of metabolism prediction, and genomic positioning."
+              ghLink=" "
+              demoLink="https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.202300577" 
+              journal="ChemBioChem (IF 3.46)"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ect}
+              isBlog={false}
+              title="EcTracker"
+              description="Single-cell data analysis web server that bestows a plethora of functionalities that collectively enable the quantitative and qualitative assessments of bona fide cell types or tissue-specific transcripts and, conversely, the ectopically expressed genes in the single-cell ribonucleic acid sequencing datasets."
+              ghLink="https://github.com/the-ahuja-lab/EcTracker"
+              demoLink="https://academic.oup.com/bib/article/22/6/bbab237/6309926" 
+              journal="Brief. Bioinformatics (IF 13.99)"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dpg}
+              isBlog={false}
+              title="deepGraphh"
+              description="An end-to-end web service featuring a conglomerate of established graph-based methods for model generation for classification or regression tasks."
+              ghLink="https://github.com/the-ahuja-lab/deepGraphh"
+              demoLink="https://academic.oup.com/bib/article/23/5/bbac288/6648791" 
+              journal="Brief. Bioinformatics (IF 13.99)"
             />
           </Col>
           <Col md={4} className="project-card">
